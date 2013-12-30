@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="1">
+  <advance width="325"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="181" y="522" type="line" name="hr00"/>
+      <point x="285" y="717" type="line"/>
+      <point x="255" y="722" type="line"/>
+      <point x="162" y="608" type="line"/>
+      <point x="70" y="722" type="line"/>
+      <point x="40" y="717" type="line"/>
+      <point x="144" y="522" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="543" width="-21" />
+      <hstem pos="722" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

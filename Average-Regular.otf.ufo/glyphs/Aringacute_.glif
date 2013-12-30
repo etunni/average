@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aringacute" format="1">
+  <advance width="694"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <contour>
+      <point x="451" y="1035" type="line" name="hr00"/>
+      <point x="448" y="1058"/>
+      <point x="415" y="1077"/>
+      <point x="382" y="1077" type="curve"/>
+      <point x="261" y="897" type="line"/>
+      <point x="291" y="892" type="line"/>
+    </contour>
+    <component  base="A"/>
+    <component  base="ring" xOffset="173" yOffset="156"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="913" width="-21" />
+      <hstem pos="1077" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

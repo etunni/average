@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lozenge" format="1">
+  <advance width="450"/>
+  <unicode hex="25CA"/>
+  <outline>
+    <contour>
+      <point x="248" y="0" type="line" name="hr00"/>
+      <point x="410" y="345" type="line"/>
+      <point x="248" y="691" type="line"/>
+      <point x="201" y="691" type="line"/>
+      <point x="40" y="345" type="line"/>
+      <point x="201" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="345" y="345" type="line"/>
+      <point x="225" y="60" type="line"/>
+      <point x="106" y="345" type="line"/>
+      <point x="225" y="631" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="691" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="1">
+  <advance width="640"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="598" y="652" type="line"/>
+      <point x="580" y="685" type="line"/>
+      <point x="448" y="685" type="line" smooth="yes"/>
+      <point x="319" y="685"/>
+      <point x="150" y="685"/>
+      <point x="68" y="691" type="curve" name="hr01"/>
+      <point x="68" y="676" type="line"/>
+      <point x="68" y="634"/>
+      <point x="62" y="563"/>
+      <point x="56" y="529" type="curve"/>
+      <point x="83" y="517" type="line"/>
+      <point x="118" y="630"/>
+      <point x="129" y="631"/>
+      <point x="478" y="631" type="curve" name="hr02"/>
+      <point x="30" y="35" type="line"/>
+      <point x="54" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="592" y="36"/>
+      <point x="602" y="123"/>
+      <point x="614" y="159" type="curve"/>
+      <point x="587" y="171" type="line"/>
+      <point x="552" y="60"/>
+      <point x="489" y="53"/>
+      <point x="267" y="53" type="curve"/>
+      <point x="151" y="53" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="0" width="53" />
+      <hstem pos="691" width="-20" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="0" width="53" />
+      <hstem pos="631" width="54" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

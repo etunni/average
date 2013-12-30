@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="462"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="44" y="-16" type="curve"/>
+      <point x="0" y="-64" type="line"/>
+      <point x="7" y="-80" type="line"/>
+      <point x="100" y="-76" smooth="yes"/>
+      <point x="138" y="-75" smooth="yes"/>
+      <point x="231" y="-75" type="curve" smooth="yes" name="hr01"/>
+      <point x="312" y="-75"/>
+      <point x="337" y="-76"/>
+      <point x="418" y="-79" type="curve"/>
+      <point x="462" y="-31" type="line"/>
+      <point x="455" y="-16" type="line" name="hr02"/>
+      <point x="362" y="-20" smooth="yes"/>
+      <point x="325" y="-21" smooth="yes"/>
+      <point x="231" y="-21" type="curve" smooth="yes" name="hr03"/>
+      <point x="150" y="-21"/>
+      <point x="125" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="-75" width="54" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="-59" width="-21" />
+      <hstem pos="-16" width="-20" />
+    </hintset>
+    <hintset pointTag="hr03">
+      <hstem pos="-75" width="54" />
+    </hintset>
+    <hintset pointTag="hr04">
+      <hstem pos="-59" width="-21" />
+      <hstem pos="-16" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

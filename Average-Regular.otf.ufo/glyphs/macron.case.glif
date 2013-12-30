@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.case" format="1">
+  <advance width="360"/>
+  <outline>
+    <contour>
+      <point x="340" y="848" type="line"/>
+      <point x="332" y="863" type="line"/>
+      <point x="290" y="860" smooth="yes"/>
+      <point x="248" y="859" smooth="yes"/>
+      <point x="206" y="859" type="curve" smooth="yes"/>
+      <point x="156" y="859"/>
+      <point x="107" y="861"/>
+      <point x="57" y="864" type="curve" name="hr01"/>
+      <point x="18" y="818" type="line"/>
+      <point x="26" y="802" type="line"/>
+      <point x="72" y="805" smooth="yes"/>
+      <point x="118" y="806" smooth="yes"/>
+      <point x="163" y="806" type="curve" smooth="yes" name="hr02"/>
+      <point x="209" y="806"/>
+      <point x="255" y="805"/>
+      <point x="301" y="802" type="curve" name="hr03"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="823" width="-21" />
+      <hstem pos="864" width="-20" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="806" width="53" />
+    </hintset>
+    <hintset pointTag="hr03">
+      <hstem pos="823" width="-21" />
+      <hstem pos="864" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
